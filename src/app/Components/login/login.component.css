@@ -61,7 +61,7 @@ body {
   color: #5757e3;
   font-weight: 400;
   border: none;
-  background: blue;
+  background: none;
 }
 
 @media (max-width: 576px) {
