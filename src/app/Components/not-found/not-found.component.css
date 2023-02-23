@@ -1,0 +1,33 @@
+.notFoundPage_Wrapper{
+  height: 969px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.reason-letter_size{
+ font-size: 18px;
+  font-weight: 500;
+}
+.notFoundPage_Buttons{
+  display: flex;
+  justify-content: center;
+}
+.notFoundPage_FirstBtn{
+  padding:10px 20px;
+  font-size:18px;
+  font-weight:bold;
+  background-color:#3f93ff;
+  border:none;
+  color:white;
+  margin-bottom:20px;
+}
+.notFoundPage_SecondBtn{
+  padding:10px 20px;
+  font-size:18px;
+  font-weight:bold;
+  background-color:white;
+  border:none;
+  margin-bottom:20px;
+  font-weight: 500;
+}
