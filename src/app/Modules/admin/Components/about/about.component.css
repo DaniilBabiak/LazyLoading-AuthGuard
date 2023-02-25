@@ -1,0 +1,16 @@
+.about-text{
+  margin: 0;
+}
+.about-component{
+  height: 849px;
+  background: url("https://wallpaperaccess.com/full/2379729.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-text{
+  color: white;
+  font-size: 7rem;
+}
+

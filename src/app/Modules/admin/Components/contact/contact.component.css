@@ -1,0 +1,15 @@
+.contact-text{
+  margin: 0;
+}
+.contact-component{
+  height: 849px;
+  background: url("https://www.xtrafondos.com/en/descargar.php?id=5846&resolucion=1280x720");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-text{
+  color: white;
+  font-size: 7rem;
+}

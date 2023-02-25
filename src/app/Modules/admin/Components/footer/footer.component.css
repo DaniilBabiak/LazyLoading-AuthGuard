@@ -1,0 +1,18 @@
+.footer-component{
+  display: flex;
+  background: rgb(53, 57, 65);
+  height: 60px;
+  justify-content: center;
+}
+
+.footer-title{
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  color: white;
+}
+.footer-text{
+  font-size: 1rem;
+  margin: 0;
+}
