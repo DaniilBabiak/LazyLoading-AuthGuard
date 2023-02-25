@@ -1,0 +1,15 @@
+.services-text{
+  margin: 0;
+}
+.services-component{
+  height: 849px;
+  background: url("https://pulson.ru/wp-content/uploads/2014/01/wallpaper-2979955.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services-text{
+  color: white;
+  font-size: 7rem;
+}

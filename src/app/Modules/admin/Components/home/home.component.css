@@ -1,0 +1,15 @@
+.home-text{
+  margin: 0;
+}
+.home-component{
+  height: 849px;
+  background: url("https://i.redd.it/ajqixpwb8z361.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-text{
+  color: white;
+  font-size: 7rem;
+}

@@ -67,6 +67,7 @@ body {
 .router-link_forgot-password{
   text-decoration: none;
 }
+
 @media (max-width: 576px) {
   .registration-cssave form {
     padding:50px 20px;
