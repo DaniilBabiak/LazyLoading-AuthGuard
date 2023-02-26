@@ -1,7 +1,7 @@
 .link-decoration{
   text-decoration: none;
   color: white;
-  font-size: 22px;
+  font-size: 20px;
 }
 .header-component{
   display: flex;
@@ -24,7 +24,7 @@
   font-size: 2rem;
 }
 .admin-nav{
-  flex-basis: 65%;
+  flex-basis: 70%;
   display: flex;
   justify-content: end;
 }
@@ -35,8 +35,11 @@
   justify-content: center;
 
 }
+.nav-btn:hover{
+  opacity: .9;
+}
 .header-end_space{
-  flex-basis: 10%;
+  flex-basis: 5%;
 }
 .active{
   background: rgb(104, 110, 124);
@@ -44,4 +47,7 @@
 .header-title{
   margin: 0;
   color: white;
+}
+.logout{
+  background: #3f93ff;
 }
