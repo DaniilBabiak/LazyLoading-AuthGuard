@@ -3,8 +3,6 @@ import {faLock} from '@fortawesome/free-solid-svg-icons'
 import {FormControl, FormGroup} from "@angular/forms";
 import {AuthService} from "../../services/auth.service";
 import {Router} from "@angular/router";
-import {catchError, finalize, map, of} from "rxjs";
-import {HttpErrorResponse} from "@angular/common/http";
 
 @Component({
   selector: 'app-login',
