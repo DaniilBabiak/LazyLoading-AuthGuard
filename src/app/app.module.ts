@@ -9,6 +9,8 @@ import {NotFoundComponent} from "./Components/not-found/not-found.component";
 import {LoginComponent} from "./Components/login/login.component";
 import {ForgotPasswordComponent} from "./Components/forgot-password/forgot-password.component";
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,8 +24,11 @@ import {ForgotPasswordComponent} from "./Components/forgot-password/forgot-passw
     FontAwesomeModule,
     NgbModule,
     ReactiveFormsModule,
+
+
   ],
   providers: [],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
+

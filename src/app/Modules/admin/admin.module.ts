@@ -10,11 +10,23 @@ import {FooterComponent} from "./Components/footer/footer.component";
 import {AboutComponent} from "./Components/about/about.component";
 
 
+
 @NgModule({
   declarations: [AdminDashboardComponent,
     HeaderComponent, FooterComponent,
     HomeComponent, ContactComponent,
     ServicesComponent, AboutComponent],
-  imports: [CommonModule, AdminRoutingModule],
+  imports: [
+    CommonModule,
+    AdminRoutingModule,
+
+  ]
+
+
 })
-export class AdminModule {}
+export class AdminModule {
+
+
+  constructor() {
+  }
+}

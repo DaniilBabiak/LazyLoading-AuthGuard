@@ -23,9 +23,9 @@ export class LoginComponent implements OnInit {
   // When a user tries to go to the 'login' page, but they are already registered, they will automatically be redirected to 'admin'.
 
   ngOnInit(): void {
-    if(this.auth.isLoggedIn()){
+  /*  if(this.auth.isLoggedIn()){
       this.router.navigate(['admin']);
-    }
+    }*/
   }
 
   onSubmit():void{
