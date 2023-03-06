@@ -8,7 +8,8 @@ import {ServicesComponent} from "./Components/services/services.component";
 import {ContactComponent} from "./Components/contact/contact.component";
 import {FooterComponent} from "./Components/footer/footer.component";
 import {AboutComponent} from "./Components/about/about.component";
-
+import {SharedModule} from "../../shared/shared.module";
+import {NgxPaginationModule} from "ngx-pagination";
 
 
 @NgModule({
@@ -19,6 +20,8 @@ import {AboutComponent} from "./Components/about/about.component";
   imports: [
     CommonModule,
     AdminRoutingModule,
+    SharedModule,
+    NgxPaginationModule,
 
   ]
 

@@ -1,5 +1,25 @@
 <div class="services-component">
   <div class="services-wrapper">
     <p class="services-text">Services Page</p>
+    <button class="btn-service_pagination" (click)="p.getUser()" [ngClass]="{'pointer-btn' : p.isClicked}">Get Users</button>
+
+  </div>
+  <div class="container">
+
+    <div>
+    <table class="table">
+      <tbody>
+      <tr *ngFor="let post of p.getJsonValue | paginate:{itemsPerPage:p.tableSize, currentPage:p.page, totalItems:p.count} let i = index">
+        <td class="td-size">{{post.id}}</td>
+        <td>{{post.title}}</td>
+      </tr>
+      </tbody>
+    </table>
+    <div>
+      <pagination-controls previousLabel="Prev" nextLabel="Next" (pageChange)="p.onTableDataChange($event)"
+      class="pag-nav" style="display: none" [ngClass]="{'my-class' : p.isClicked}"></pagination-controls>
+    </div>
+    </div>
   </div>
 </div>
+

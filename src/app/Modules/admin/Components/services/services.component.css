@@ -6,10 +6,43 @@
   background: url("https://pulson.ru/wp-content/uploads/2014/01/wallpaper-2979955.jpg");
   background-size: cover;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  flex-direction: column;
 }
 .services-text{
   color: white;
   font-size: 7rem;
+}
+.services-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.btn-service_pagination{
+  width: 30%;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 700;
+  background: #014085;
+  border: 2px solid #0964ad;
+  color: white;
+
+}
+.pag-nav{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+}
+.table{
+  color: white;
+}
+.my-class{
+  display: flex!important;
+}
+.td-size{
+  width: 10px;
+}
+.pointer-btn{
+  pointer-events: none;
 }

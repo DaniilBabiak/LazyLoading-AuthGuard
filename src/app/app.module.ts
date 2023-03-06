@@ -8,7 +8,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import {NotFoundComponent} from "./Components/not-found/not-found.component";
 import {LoginComponent} from "./Components/login/login.component";
 import {ForgotPasswordComponent} from "./Components/forgot-password/forgot-password.component";
-
+import {HttpClientModule} from "@angular/common/http";
 
 
 @NgModule({
@@ -24,7 +24,7 @@ import {ForgotPasswordComponent} from "./Components/forgot-password/forgot-passw
     FontAwesomeModule,
     NgbModule,
     ReactiveFormsModule,
-
+    HttpClientModule,
 
   ],
   providers: [],
