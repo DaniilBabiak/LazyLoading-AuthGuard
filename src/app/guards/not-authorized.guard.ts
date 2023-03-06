@@ -15,8 +15,8 @@ export class NotAuthorizedGuard implements CanActivate {
     state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
      let isLoggedIn = this.auth.isLoggedIn();
      if (isLoggedIn) {
-       this.router.navigate(["/admin/home"]);
-       return false;
+       return this.router.parseUrl('/admin/home');
+
      }
      return true
   }
